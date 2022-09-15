@@ -1,6 +1,6 @@
 #!/usr/bin/python3
 """
-    test cas for test_city.py
+    test case for test_city.py
 """
 from tests.test_models.test_base_model import test_basemodel
 from models.city import City
