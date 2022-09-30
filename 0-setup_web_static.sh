@@ -15,7 +15,7 @@ echo "
     <html lang='en'>
         <head>
             <title>Just a configuration script</title>
-            <meta charset="UTF-8"/>
+            
         </head>
         <body>
         <h1 style=color:'blue'>THIS IS MY HEADING</h1>
