@@ -11,13 +11,17 @@ sudo mkdir -p /data/web_static/shared/
 sudo mkdir -p /data/web_static/releases/test/
 #Create a fake HTML with simple content to test your Ngninx configuration
 echo "
-<html>
-  <head>
-  </head>
-  <body>
-    Holberton School
-  </body>
-</html>
+<!DOCTYPE html>
+    <html lang='en'>
+        <head>
+            <title>Just a configuration script</title>
+            <meta charset="UTF-8"/>
+        </head>
+        <body>
+        <h1 style=color:'blue'>THIS IS MY HEADING</h1>
+            <p>Incoming devops, so get ready world!</P>
+        </body>
+    </html>
 " > /data/web_static/releases/test/index.html
 # Create a symbolik link that delete and recreated every time is ran
 source_file="/data/web_static/current"
